@@ -13,3 +13,7 @@ const whisper = str => {
 const logWhisper = str => {
   console.log(str.toLowerCase())
 }
+
+const sayHiToGrandma = str => {
+  if
+}
