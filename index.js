@@ -20,6 +20,8 @@ const sayHiToGrandma = str => {
       return 'YES INDEED!'
     } else if (str[i] === str[i].toLowerCase()) {
       return 'I can\'t hear you!'
+    } else {
+      return "I love you, too."
     }
   }
 }
