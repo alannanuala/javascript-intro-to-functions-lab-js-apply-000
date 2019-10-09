@@ -15,13 +15,14 @@ const logWhisper = str => {
 }
 
 const sayHiToGrandma = str => {
+  if (str === "I love you") {
+    return 'I love you, too.'
+  }
   for (let i = 0; i < str.length; i++) {
     if (str[i] === str[i].toUpperCase()) {
       return 'YES INDEED!'
     } else if (str[i] === str[i].toLowerCase()) {
       return 'I can\'t hear you!'
-    } else {
-      return "I love you, too."
     }
   }
 }
