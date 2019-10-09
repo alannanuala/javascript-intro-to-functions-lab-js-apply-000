@@ -6,7 +6,7 @@ const logShout = str => {
   console.log(str.toUpperCase())
 }
 
-const whipser = str => {
+const whisper = str => {
   return str.toLowerCase()
 }
 
