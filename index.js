@@ -15,7 +15,7 @@ const logWhisper = str => {
 }
 
 const sayHiToGrandma = str => {
-  if (str === "I love you") {
+  if (str === "I love you, Grandma") {
     return 'I love you, too.'
   }
   for (let i = 0; i < str.length; i++) {
